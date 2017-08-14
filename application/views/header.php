@@ -9,7 +9,8 @@
     <meta name="description" content="Diplomado  en liderazgo y gerencia politica">
     <meta name="author" content="Ing. Bryam Duarte">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url("application/views/img/logo.svg"); ?>">
+    <title>Diplomado en Liderazgo y Gerencia Política</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url("bootstrap/css/bootstrap.min.css"); ?>" rel="stylesheet">

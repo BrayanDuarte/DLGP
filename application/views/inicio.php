@@ -166,17 +166,17 @@
                     <div class="row"> 
                         <div class="col-md-4 col-lg-4">
                             <a class="btn btn-default" href="#">
-                                <i class="fa fa-facebook fa-2x" aria-hidden="true" ></i>
+                                <i class="fa fa-facebook fa-2x"></i>
                             </a>
                         </div>
                         <div class="col-md-4 col-lg-4">
                                 <a class="btn btn-default" href="#">
-                                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                                    <i class="fa fa-twitter fa-2x"></i>
                                 </a>
                         </div>
                         <div class="col-md-4 col-lg-4">
                                 <a class="btn btn-default" href="#">
-                                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                                    <i class="fa fa-youtube fa-2x"></i>
                                 </a>
                         </div>
                     </div>

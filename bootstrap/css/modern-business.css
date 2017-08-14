@@ -91,3 +91,37 @@ footer {
         height: 70%;
     }
 }
+
+@media (width: 320px) {
+    .img-titulo{
+        max-width: 230px;
+    }
+}
+@media (width: 360px) {
+    .img-titulo{
+        max-width: 270px;
+    }
+}
+@media only screen and (min-device-width: 500px) {
+    .img-titulo{
+        max-width: 350px;
+    }
+}
+
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+ 
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

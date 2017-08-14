@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo base_url(); ?>" >
-                <img class="img-responsive" src="<?php echo base_url("application/views/img/logo2.svg"); ?>"  style="max-width: 380px;">
+                <img class="img-responsive img-titulo" src="<?php echo base_url("application/views/img/logo2.svg"); ?>" >
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->

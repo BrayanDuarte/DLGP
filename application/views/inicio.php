@@ -53,7 +53,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Convocatoria Décima Generación DLGP</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>Convocatoria 10° Generación DLGP</h4>
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
@@ -92,13 +92,17 @@
                 <h2 class="page-header" style="color: white;">Videos</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+               <!--  <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/eaURCQPYQig" frameborder="0" allowfullscreen>
+                    </iframe>
+                </div> -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eaURCQPYQig"></iframe>
+                </div> 
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover " src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -143,7 +147,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+                <a href="<?php echo base_url("archivos/Boletín_DLGP_Edición_Agosto_2016.pdf"); ?>" >
+                <img class="img-responsive" src="<?php echo base_url("application/views/img/boletin.jpeg"); ?>" alt="" style="padding-left: 30%;">
+                </a>
             </div>
         </div>
         <!-- /.row -->
@@ -153,11 +159,27 @@
         <!-- Call to Action Section -->
         <div class="well">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
                 </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                <div class="col-md-2">
+                    <div class="row"> 
+                        <div class="col-md-4 col-lg-4">
+                            <a class="btn btn-default" href="#">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true" ></i>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                                <a class="btn btn-default" href="#">
+                                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                                </a>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                                <a class="btn btn-default" href="#">
+                                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                                </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
